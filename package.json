@@ -1,0 +1,26 @@
+{
+  "name": "vinwear",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "svelte": "^5.39.6",
+    "vite": "npm:rolldown-vite@7.1.14"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.1.14"
+  },
+  "dependencies": {
+    "animejs": "^4.2.2",
+    "gsap": "^3.13.0",
+    "lucide-svelte": "^0.553.0",
+    "svelte-styled-components": "^0.0.1",
+    "three": "^0.181.0"
+  }
+}
